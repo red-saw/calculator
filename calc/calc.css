@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(136deg, #cbdb71, #5ffde3, #d6718a);
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #fdf8df;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(40, 40, 40, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid gainsboro;
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+
+}
+
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #fff;
+    border-radius: 20px;
+    font-size: 2rem;
+    overflow: auto;
+    width: 326px;
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #5ffde3;
+    box-shadow: 0 4px 30px rgba(40, 40, 40, 0.1);
+}
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #e3e6d2;
+    padding: 5px;
+    border: 1px solid #f1c9c2;
+    margin-top:10px ;
+    font-size: 1.7rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(40, 40, 40, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    height: 60px;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #ec1a1a;
+    padding: 5px;
+    border: 1px solid #f1c9c2;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+
+.calc-button:last-child:hover{
+    background-color: #b6dde7;
+    color: #232323;
+}
+
+.calc-button:hover{
+    background-color: inherit;
+}
+
+.calc-button:active{
+    background-color: rgb(207, 149, 108);
+}
+
+.triple{
+    flex-basis: 73%;
+}
